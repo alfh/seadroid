@@ -16,7 +16,7 @@ import android.view.ViewGroup;
 
 import com.actionbarsherlock.app.SherlockFragment;
 import com.seafile.seadroid2.BrowserActivity;
-import com.seafile.seadroid2.R;
+import com.wtyjy.seadroid2.R;
 import com.viewpagerindicator.IconPagerAdapter;
 import com.viewpagerindicator.TabPageIndicator;
 

@@ -21,7 +21,7 @@ import android.widget.TextView;
 
 import com.seafile.seadroid2.BrowserActivity;
 import com.seafile.seadroid2.NavContext;
-import com.seafile.seadroid2.R;
+import com.wtyjy.seadroid2.R;
 import com.seafile.seadroid2.Utils;
 import com.seafile.seadroid2.data.DataManager;
 import com.seafile.seadroid2.data.SeafCachedFile;

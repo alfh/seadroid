@@ -12,7 +12,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.seafile.seadroid2.BrowserActivity;
-import com.seafile.seadroid2.R;
+import com.wtyjy.seadroid2.R;
 import com.seafile.seadroid2.SeafException;
 import com.seafile.seadroid2.TransferManager.DownloadTaskInfo;
 import com.seafile.seadroid2.TransferService;

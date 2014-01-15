@@ -32,6 +32,7 @@ import android.util.Log;
 import android.webkit.MimeTypeMap;
 
 import com.seafile.seadroid2.data.SeafRepo;
+import com.wtyjy.seadroid2.R;
 
 public class Utils {
     public static final String MIME_APPLICATION_OCTET_STREAM = "application/octet-stream";

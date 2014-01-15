@@ -38,6 +38,7 @@ import com.seafile.seadroid2.ui.DirentsAdapter;
 import com.seafile.seadroid2.ui.PasswordDialog;
 import com.seafile.seadroid2.ui.ReposAdapter;
 import com.seafile.seadroid2.ui.TaskDialog;
+import com.wtyjy.seadroid2.R;
 
 
 public class ShareToSeafileActivity extends SherlockFragmentActivity {

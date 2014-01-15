@@ -23,7 +23,7 @@ import android.view.GestureDetector.SimpleOnGestureListener;
 import android.widget.Scroller;
 
 import static com.seafile.seadroid2.gallery.Util.Assert;
-import com.seafile.seadroid2.R;
+import com.wtyjy.seadroid2.R;
 
 
 class GridViewSpecial extends View {

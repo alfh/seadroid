@@ -28,7 +28,7 @@ import com.actionbarsherlock.app.SherlockFragment;
 import com.seafile.seadroid2.BrowserActivity;
 import com.seafile.seadroid2.FileActivity;
 import com.seafile.seadroid2.NavContext;
-import com.seafile.seadroid2.R;
+import com.wtyjy.seadroid2.R;
 import com.seafile.seadroid2.account.Account;
 import com.seafile.seadroid2.data.SeafRepo;
 

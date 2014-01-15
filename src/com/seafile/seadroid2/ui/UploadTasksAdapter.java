@@ -18,7 +18,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.graphics.Color;
 
-import com.seafile.seadroid2.R;
+import com.wtyjy.seadroid2.R;
 import com.seafile.seadroid2.TransferManager.UploadTaskInfo;
 import com.seafile.seadroid2.Utils;
 

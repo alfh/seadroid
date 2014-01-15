@@ -29,6 +29,7 @@ import com.seafile.seadroid2.account.Account;
 import com.seafile.seadroid2.data.DataManager;
 import com.seafile.seadroid2.ui.PasswordDialog;
 import com.seafile.seadroid2.ui.TaskDialog;
+import com.wtyjy.seadroid2.R;
 
 /**
  * Display a file

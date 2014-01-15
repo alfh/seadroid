@@ -19,7 +19,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.seafile.seadroid2.R;
+import com.wtyjy.seadroid2.R;
 
 /**
  * Choose an app from a list of apps or custom actions

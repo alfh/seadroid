@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 
 
-import com.seafile.seadroid2.R;
+import com.wtyjy.seadroid2.R;
 
 public class UploadChoiceDialog extends DialogFragment {
 

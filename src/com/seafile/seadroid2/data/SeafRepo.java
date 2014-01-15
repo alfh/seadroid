@@ -5,7 +5,7 @@ import java.util.Date;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.seafile.seadroid2.R;
+import com.wtyjy.seadroid2.R;
 
 /**
  * SeafRepo: A Seafile library

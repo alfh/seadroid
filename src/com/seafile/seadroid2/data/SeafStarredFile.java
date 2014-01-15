@@ -5,7 +5,7 @@ import org.json.JSONObject;
 
 import android.util.Log;
 
-import com.seafile.seadroid2.R;
+import com.wtyjy.seadroid2.R;
 import com.seafile.seadroid2.Utils;
 
 

@@ -19,6 +19,7 @@ import android.widget.TextView;
 
 import com.seafile.seadroid2.account.Account;
 import com.seafile.seadroid2.account.AccountManager;
+import com.wtyjy.seadroid2.R;
 
 
 public class AccountDetailActivity extends FragmentActivity {

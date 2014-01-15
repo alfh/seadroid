@@ -18,7 +18,7 @@ import android.widget.ListView;
 
 import com.actionbarsherlock.app.SherlockListFragment;
 import com.seafile.seadroid2.BrowserActivity;
-import com.seafile.seadroid2.R;
+import com.wtyjy.seadroid2.R;
 import com.seafile.seadroid2.TransferManager.TaskState;
 import com.seafile.seadroid2.TransferManager.UploadTaskInfo;
 import com.seafile.seadroid2.TransferService;

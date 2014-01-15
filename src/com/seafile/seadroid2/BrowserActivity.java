@@ -77,6 +77,7 @@ import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.view.GravityCompat;
 import com.seafile.seadroid2.ui.TabsFragment;
 import com.seafile.seadroid2.ui.StarredFragment;
+import com.wtyjy.seadroid2.R;
 
 public class BrowserActivity extends SherlockFragmentActivity
         implements ReposFragment.OnFileSelectedListener, StarredFragment.OnStarredFileSelectedListener, OnBackStackChangedListener {

@@ -3,6 +3,7 @@ package com.seafile.seadroid2;
 import java.util.ArrayList;
 
 import com.seafile.seadroid2.account.Account;
+import com.wtyjy.seadroid2.R;
 
 import android.content.Context;
 import android.view.LayoutInflater;

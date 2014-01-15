@@ -3,7 +3,7 @@ package com.seafile.seadroid2.ui;
 import java.util.ArrayList;
 
 import com.seafile.seadroid2.BrowserActivity;
-import com.seafile.seadroid2.R;
+import com.wtyjy.seadroid2.R;
 import com.seafile.seadroid2.Utils;
 import com.seafile.seadroid2.data.SeafDirent;
 import com.seafile.seadroid2.data.SeafItem;
