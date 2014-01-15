@@ -25,6 +25,9 @@ public class AccountDetailActivity extends FragmentActivity {
 
     private static final String DEBUG_TAG = "AccountDetailActivity";
 
+    private static final String WTYJY_SERVER_URL = "https://10.67.55.210/";
+    // private static final String WTYJY_SERVER_URL = "https://cloud.seafile.com/";
+
     private TextView statusView;
     private Button loginButton;
     private EditText serverText;
@@ -49,6 +52,10 @@ public class AccountDetailActivity extends FragmentActivity {
         emailText = (EditText) findViewById(R.id.email_address);
         passwdText = (EditText) findViewById(R.id.password);
         seahubUrlHintText = (TextView) findViewById(R.id.seahub_url_hint);
+
+        httpsCheckBox.setVisibility(View.GONE);
+        serverText.setVisibility(View.GONE);
+        seahubUrlHintText.setVisibility(View.GONE);
 
         accountManager = new AccountManager(this);
 
@@ -86,24 +93,26 @@ public class AccountDetailActivity extends FragmentActivity {
         String serverURL = serverText.getText().toString();
         String email = emailText.getText().toString();
         String passwd = passwdText.getText().toString();
-        boolean isHttps = httpsCheckBox.isChecked();
+        // boolean isHttps = httpsCheckBox.isChecked();
 
         ConnectivityManager connMgr = (ConnectivityManager)
             getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
 
         if (networkInfo != null && networkInfo.isConnected()) {
-            if (serverURL.length() == 0) {
-                statusView.setText(R.string.err_server_andress_empty);
-                return;
-            }
-            try {
-                serverURL = cleanServerURL(serverURL, isHttps);
-            } catch (MalformedURLException e) {
-                statusView.setText(R.string.invalid_server_address);
-                Log.d(DEBUG_TAG, "Invalid URL " + serverURL);
-                return;
-            }
+            // if (serverURL.length() == 0) {
+            //     statusView.setText(R.string.err_server_andress_empty);
+            //     return;
+            // }
+            // try {
+            //     serverURL = cleanServerURL(serverURL, isHttps);
+            // } catch (MalformedURLException e) {
+            //     statusView.setText(R.string.invalid_server_address);
+            //     Log.d(DEBUG_TAG, "Invalid URL " + serverURL);
+            //     return;
+            // }
+
+            serverURL = WTYJY_SERVER_URL;
 
             loginButton.setEnabled(false);
             Account tmpAccount = new Account(serverURL, email, passwd);

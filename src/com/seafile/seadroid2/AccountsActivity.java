@@ -58,7 +58,9 @@ public class AccountsActivity extends FragmentActivity {
         addAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View btn) {
-                new CreateAccountChoiceDialog().show(getSupportFragmentManager(), "Choose a server");
+                // new CreateAccountChoiceDialog().show(getSupportFragmentManager(), "Choose a server");
+                Intent intent = new Intent(SeadroidApplication.getAppContext(), AccountDetailActivity.class);
+                startActivity(intent);
             }
         });
         accountsView.setOnItemClickListener(new OnItemClickListener() {

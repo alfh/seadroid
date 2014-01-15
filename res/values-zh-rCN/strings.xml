@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Seafile</string>
+    <string name="app_name">捷盘</string>
     <string name="app_url">http://seafile.com</string>
-    <string name="welcome_to_seafile">欢迎使用Seafile</string>
+    <string name="welcome_to_seafile">欢迎使用捷盘</string>
     <string name="select_account">请选择一个账户开始使用</string>
     <string name="edit_account">编辑帐户</string>
     <string name="delete_account">删除帐户</string>
@@ -76,15 +76,15 @@
     <string name="dir_empty">此文件夹是空的</string>
     <string name="no_repo">您还没有任何资料库</string>
     <string name="no_app_available">没有找到应用</string>
-    <string name="add_to_seafile">添加到Seafile中</string>
+    <string name="add_to_seafile">添加到捷盘中</string>
     <string name="ok">确定</string>
     <string name="cancel">取消</string>
-    <string name="no_account">首先请在Seafile上创建一个账户</string>
+    <string name="no_account">首先请在捷盘上创建一个账户</string>
     <string name="no_library">对不起，您还没有任何资料库</string>
     <string name="choose_an_account">请选择一个账户</string>
     <string name="choose_a_library">请选择一个资料库</string>
     <string name="choose_a_folder">请选择一个文件夹</string>
-    <string name="load_accounts_fail">加载seafile账户失败</string>
+    <string name="load_accounts_fail">加载捷盘账户失败</string>
     <string name="load_libraries_fail">加载资料库失败</string>
     <string name="load_dir_fail">加载此文件夹的内容失败</string>
     <string name="not_supported_share">不支持此类分享</string>

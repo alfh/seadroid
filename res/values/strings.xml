@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Seafile</string>
+    <string name="app_name">捷盘</string>
     <string name="app_url">http://seafile.com</string>
-    <string name="welcome_to_seafile">Welcome to Seafile</string>
+    <string name="welcome_to_seafile">Welcome to 捷盘</string>
     <string name="select_account">Choose an account to start</string>
     <string name="edit_account">Edit</string>
     <string name="delete_account">Delete</string>
@@ -77,15 +77,15 @@
     <string name="dir_empty">This folder is empty</string>
     <string name="no_repo">You have no libraries yet</string>
     <string name="no_app_available">No app can be found</string>
-    <string name="add_to_seafile">Add to Seafile</string>
+    <string name="add_to_seafile">Add to 捷盘</string>
     <string name="ok">Ok</string>
     <string name="cancel">Cancel</string>
-    <string name="no_account">Please setup an account in Seafile first</string>
+    <string name="no_account">Please setup an account in 捷盘 first</string>
     <string name="no_library">You have no library yet</string>
     <string name="choose_an_account">Choose an account</string>
     <string name="choose_a_library">Choose a library</string>
     <string name="choose_a_folder">Choose a folder</string>
-    <string name="load_accounts_fail">Failed to load seafile accounts</string>
+    <string name="load_accounts_fail">Failed to load 捷盘 accounts</string>
     <string name="load_libraries_fail">Failed to load libraries</string>
     <string name="load_dir_fail">Failed to load contents of this folder</string>
     <string name="not_supported_share">This type of share is not supported</string>
